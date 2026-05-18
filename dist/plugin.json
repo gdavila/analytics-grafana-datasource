@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
-  "name": "Bitmovin Analytics",
-  "id": "bitmovin-analytics-datasource",
+  "name": "Bitmovin Analytics (Dev)",
+  "id": "bitmovin-analytics-datasource-dev",
   "metrics": true,
   "info": {
     "description": "Data source plugin which allows you to query Analytics data from the Bitmovin API",
@@ -26,8 +26,8 @@
       }
     ],
     "screenshots": [],
-    "version": "1.4.1",
-    "updated": "2025-04-16"
+    "version": "1.4.2-dev",
+    "updated": "2026-05-18"
   },
   "dependencies": {
     "grafanaDependency": ">=10.1.0",
